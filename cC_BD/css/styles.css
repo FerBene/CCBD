@@ -1,0 +1,80 @@
+* {
+	font-family: "Orkney Light", Lato, Sans-serif;
+	text-align: justify;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color:#F2F3F5;
+}
+
+h1 {
+	color:  #0272B1;
+	font-size: 1.6rem;
+	margin-top: .9em;
+	margin-bottom: 0.9em;
+	width: 100%;
+}
+
+p {
+	font-size: 0.75rem;
+	margin-bottom: 1.5em;
+	width: 100%;
+}
+
+input {
+	font-size: 0.69rem;
+}
+
+div {
+	border: 1.5px solid #bdbdc2;
+	box-shadow:3px 0px 10px #b1afaf;
+	color:  #1F2041;
+	border-radius: 12px;
+	font-size: 1.6em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 45%;
+	transform: translateX(-45%)
+}
+
+#description {
+	margin-top: 7%;
+	padding: 1em;
+}
+
+#fileInput {
+	position: relative;
+	top: 0.5em;
+	padding: 0.6em;
+}
+
+#fileInput:hover {
+	background-color:rgb(233, 233, 233);
+}
+
+.frame-top {
+	clip-path: polygon(100% 0, 100% 5%, 0 100%, 0 0%);
+	background: linear-gradient(225deg, #0272B1 0%, #0000a3 100%);
+	height: 3.5em;
+	position: relative;
+}
+
+.frame-bottom {
+	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 96%);
+	background: linear-gradient(225deg, #0000a3 10%, #0272B1 100%);
+	height: 3.5em;
+	position: relative;
+	top: 25.8em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File Reader and Sorter</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'" id="ao_optimized_gfonts" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap">
+	</head>
+	<body>
+		<section class="frame-top">
+		</section>
+		<section class="center">
+			<div id="description">
+				<h1>
+					Descripción
+				</h1>
+				<p>
+                    Dado un archivo de entrada "people.in" con información de perfiles públicos de 
+                    LinkedIn la siguiente WebApp selecciona los 100 potenciales clientes con mayor 
+                    probabilidad de comprar los servicios de BairesDev.
+				</p>
+				<p>
+                    Se genera un archivo "people.out" que contiene los IDs de las personas a 
+                    contactar.
+				</p>
+				<p>
+                    El archivo de entrada debe contener, en cada línea, los siguientes campos 
+                    separados por un pipe: PersonId, Name, LastName, CurrentRole, Country, Industry, NumberOfRecommendations, NumberOfConnections.
+				</p>
+			</div>
+			<div id="fileInput">
+				<form name="myForm">
+					<input name="myInput" type="file" />
+				</form>
+			</div>
+		</section>
+		<section class="frame-bottom">
+		</section>
+    </body>
+
+    <script src='./js/person.js'></script>
+    <script src='./js/sorter.js'></script>
+    <script src='./js/mainApp.js'></script>
+    <script src='./js/downloader.js'></script>
+    <script src='./js/outer.js'></script>
+</html>
